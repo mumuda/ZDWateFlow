@@ -8,7 +8,7 @@
 2. 在创建collectionView的时候使用<br>`ZDWateLayout *layout = [[ZDWateLayout alloc] init];`<br>代替<br>`UICollectionViewLayout *layout = [[UICollectionViewLayout alloc] init];`
 3. 实现一下方法<br>
 
-```
+```objective-c
 
 /********必须实现************/
 
@@ -33,5 +33,6 @@
 @property (nonatomic,copy) CGFloat(^colSpace)(ZDWateLayout *layout,NSInteger index);
 
 ```
+
 
 [回到顶部](#readme)
