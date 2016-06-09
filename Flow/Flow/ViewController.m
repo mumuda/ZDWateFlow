@@ -58,6 +58,7 @@
 {
     if (_collectionView == nil)
     {
+        
         ZDWateLayout *layout = [[ZDWateLayout alloc] init];
         [layout setHeightCell:^CGFloat(ZDWateLayout *layout, NSIndexPath *indexPath) {
             if (indexPath.section == 0)
